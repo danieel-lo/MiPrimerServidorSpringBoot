@@ -28,3 +28,7 @@ a {
     margin-top: 20px;
     color: black;
 }
+
+a:hover {
+    color: blue;
+}
