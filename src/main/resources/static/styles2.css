@@ -1,0 +1,53 @@
+:root {
+    --azul: rgb(7, 169, 223);
+    --fondo: rgb(245, 245, 245);
+    --texto: rgb(30, 30, 30);
+}
+
+body {
+    background-color: var(--fondo);
+    color: var(--texto);
+    font-family: Arial;
+    margin: 30px;
+}
+
+h1 {
+    color: var(--texto);
+    text-align: center;
+}
+
+.hobbies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.targeta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.targeta img {
+    width: 60px;
+    height: 60px;
+}
+
+.targeta:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+p {
+    text-align: center;
+}
